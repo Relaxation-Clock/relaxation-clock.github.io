@@ -90,7 +90,7 @@ img {
    border-top:solid 12px #00000075;
    box-shadow:5px 5px 10px #00000070;
    position:fixed;
-
+    display:none;
 }
 
 #sound {
