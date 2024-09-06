@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Zen Stopwatch</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="stopwatch.css">
+    </head>
+    
+    <body>
+            
+            <div id="b1">
+                
+                <img id="ihtl" src="image1.jpg">
+                <h1 id="clock">00:00</h1>
+                <h1 id="time">00:00:00</h1>
+                <div id="b2">
+                    <button id="start_btn" class="bb1" onclick="start()" >START</button>
+                    <button id="pause_btn" class="bb1" onclick="pause()"  >PAUSE</button>
+                    <button id="reset_btn" class="bb1" onclick="reset()"  >RESET</button>
+                
+                </div>
+            </div>
+            <div id="bob">
+                <button class="volume" >0</button><br/>
+                <button class="volume" >0</button><br/>
+                <button class="volume" >0</button><br/>
+                <button class="volume" >0</button><br/>
+                <button class="volume" >0</button>
+            </div>
+            <button onclick="needSleep()" class="bb1" id="sound" >◄►</button>
+            <button onclick="sound()" class="bb1" id="north" >=</button>
+            <script src="stopwatch.js"></script>
+    </body>
+</html>

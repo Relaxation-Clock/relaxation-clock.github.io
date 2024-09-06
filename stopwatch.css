@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+    background-color:#000000;  
+    margin:0px;
+    height: 100%;
+    overflow: hidden;
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+img {
+    width:150%;
+    height:150%;
+    position:absolute;
+    filter:blur(0px);
+    transform: translate(0, 0);
+}
+
+
+#b2 {
+    position:fixed;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.bb1  {
+    width:100px;
+    height:50px;
+    font-size:20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    border-radius:50px;
+    border:solid 0px;
+    background-color: #b4c28d50;
+    box-shadow:3px 3px 8px #000000;
+    color:#00000075;
+    text-shadow:3px 3px 15px #000000;
+    transition:background-color 0.5s ease-out 0s;
+}
+
+.bb1:hover {
+    background-color:#b4c28d;
+}
+#time{
+    position:fixed;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);   
+    font-size:50px;
+    text-shadow: 3px 3px 8px #8c8c8c;
+    transition:font-size 1s ease-out 0s;
+}
+
+#time:hover {
+    font-size:55px;
+}
+
+#ihtl {
+    transform: translate(0, 0);
+    transition: transform 0.5s ease-out;
+    object-fit: cover;
+}
+
+#clock {
+    position:fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);   
+    font-size:175px;
+    text-shadow: 3px 3px 8px #8c8c8c;
+    transition:font-size 1s ease-out 0s;
+}
+
+#clock:hover {
+    font-size:185px;
+
+}
+#bob {
+   position:fixed;
+    width:400px;
+   height:500px;
+    background-color:#b4c28d75;
+   left:74%;
+   top:53%;
+   border-top:solid 12px #00000075;
+   box-shadow:5px 5px 10px #00000070;
+   position:fixed;
+
+}
+
+#sound {
+    width:50px;
+    height:50px;
+    position:fixed;
+    top:93%;
+    left:96%;
+}
+
+#north {
+    width:50px;
+    height:50px;
+    position:fixed;
+    top:93%;
+    left:92%;
+}
+
+.slider {
+height:50px;
+width:200px;
+border-radius:30px;
+
+}
+
